@@ -1,0 +1,64 @@
+@import '~iview/src/styles/index.less';
+
+@menu-dark-title: #2a303f;
+@menu-dark-active-bg: #181d2b;
+@layout-sider-background: #2a303f;
+
+//fixed 菜单栏 缩小显示不居中问题
+.main .left-sider .ivu-layout-sider-children {
+  overflow-y: hidden;
+  margin-right: -4px
+}
+
+//.ivu-select-dropdown{background: #2a303f;color: white !important;}
+
+.ivu-select-disabled .ivu-select-selection {
+  background: transparent;
+  color: #515a6e !important;
+}
+
+.ivu-input[disabled], fieldset[disabled] .ivu-input {
+  background: transparent;
+  color: #515a6e !important;
+}
+
+//面包颜色修改
+//.ivu-breadcrumb{color: white}
+//.ivu-breadcrumb a{color: white}
+//.ivu-breadcrumb > span:last-child{color: #999}
+//表格展开项修改
+td.ivu-table-expanded-cell {
+  padding: 0px
+}
+
+.ivu-table-wrapper {
+  overflow: inherit!important;
+  //border-left: none !important;
+}
+
+.ivu-table:after {
+  width: 0px !important;
+  display: none !important;
+}
+
+.amap-icon img,
+.amap-marker-content img{
+    width: 25px;
+    height: 34px;
+}
+.marker {
+    position: absolute;
+    top: -20px;
+    right: -118px;
+    color: #fff;
+    padding: 4px 10px;
+    box-shadow: 1px 1px 1px rgba(10, 10, 10, .2);
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: "";
+    background-color: #25A5F7;
+    border-radius: 3px;
+}
+.ivu-select-input[disabled] {
+  color: #515a6e !important;
+}
